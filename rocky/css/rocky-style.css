@@ -1,0 +1,109 @@
+/* --- Reset Defaults --- */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Montserrat', sans-serif;
+}
+
+li {
+   list-style-type: none;
+   text-decoration: none;
+}
+
+a{
+   text-decoration: none;
+   text-transform: uppercase;;
+}
+
+/* --- Header --- */
+
+.header-home{
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 15px 0px;
+}
+
+.menu ul {
+   display: flex;
+   flex-flow: row wrap;
+}
+
+.menu ul li a {
+   display: flex;
+   padding: 0px 24px;
+   color: #fff;
+   font-size: 16px;
+   font-weight: 600;
+}
+
+/* --- Mobile Menu --- */
+.mobile-menu{
+   display: none;
+   cursor: pointer;
+}
+
+.mobile-menu div {
+   width: 32px;
+   height: 2px;
+   background-color: #fff;
+   margin: 8px;
+}
+
+.nav-list.active {
+   transform: translateX(0);
+}
+
+
+/* --- Home --- */
+
+.home {
+   background-image: url(/Imagens/web/s1\ ft1.png);
+   background-attachment: fixed;
+   background-size: 100% 100%;
+   background-position:center;
+   background-repeat: no-repeat;
+   height: 100vh;
+   width: 100%;
+}
+
+.hero {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-flow: column wrap;
+   color: #fff;
+}
+
+.title h1 {
+   font-size: 8.815rem;
+   text-transform: uppercase;
+   text-align: center;
+   margin-top: 13%;
+}
+
+.description {
+   font-size: 1.25rem;
+   margin-top: 95px;
+}
+
+.description span{
+   color: #EFE60B;
+   font-weight: 500;
+}
+
+.btn-now {
+   width: 350px;
+   height: 83px;
+   background-color:#1CD4E9;
+   border-radius: 42px;
+   border: none;
+   text-align: center;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   font-size: 1.25rem;
+   font-weight: 600;
+   margin-top: 66px;
+}
