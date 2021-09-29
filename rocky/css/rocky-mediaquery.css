@@ -1,4 +1,4 @@
-@media(max-width: 1610px) {
+@media only screen and (min-width: 900px) and (max-width: 1600px) {
    html {font-size: 13px;}
    .title h1 {
       width: 90%;
@@ -11,7 +11,7 @@
    }
 }
 
-@media(max-width: 1300px) {
+@media only screen and (min-width:900px) and (max-width:1300px) {
    html {font-size: 10px;}
    .title h1 {
       width: 90%;
@@ -27,39 +27,97 @@
    }
 }
 
-@media(max-width: 900px) {
-   html {font-size: 8px;}
+@media only screen and (min-width:900px) and (max-width:1180px) {
+   .nav ul li a {
+      font-size: 12px;
+   }
+   .nav ul li a {
+      padding: 5px 18px;
+   }
+   .logo img {
+      width: 170px;
+   }
+}
+
+
+@media only screen and (min-width:600px) and (max-width:900px) {
+   html {font-size: 11px;}
    body {overflow-x: hidden;}
-   .title h1 {
-      font-size: 50px;
-      width: 90%;
-      margin: auto;
-      margin-top: 2%;
-   }
-   .description {
-      margin-top: 75px;
-   }
-   .btn-now {
-      width: 350px;
-      height: 63px;
-   }
- 
-   .nav-list {
-      flex-flow: column wrap;
-      align-items: center;
-      position: absolute;
-      right: 0px;
-      background-color: #000;
-      height: 50vh;
-      width: 10px;
-      transition: all 2.5s;
+
+   .header-home {
+      flex-flow: row-reverse;
+      justify-content: space-between;
+      padding: 10px 30px;
    }
 
-   .mobile-menu {
-      display: block;
-      position: relative;
-      right: 30px;
+   .logo img {
+      width: 112px;
+      align-items: start;
       
    }
 
+   .logo {
+      margin: auto;
+      padding: 0;
+   }
+
+   .title h1 {
+      font-size: 70px;
+      margin: auto;
+      margin-top: 50px; 
+   }
+
+   .description {
+      margin-top: 60px;
+   }
+
+   .btn-now {
+      width: 300px;
+      height: 63px;
+      font-size: 15px;
+      margin-top: 100px;
+   }
+
+}
+
+@media (max-width:600px) {
+   html {font-size: 9px;}
+   body {overflow-x: hidden;}
+
+   .header-home {
+      flex-flow: row-reverse;
+      justify-content: space-between;
+      padding: 10px 30px;
+   }
+   
+   .logo img {
+      width: 112px;
+   }
+
+   .logo {
+      margin: auto;
+      padding: 0;
+   }
+
+   .title h1 {
+      text-align: center;
+      font-size: 30px;
+      width: 80%;
+      margin: auto;
+      margin-top: 50px; 
+   }
+
+   .description {
+      width: 60%;
+      text-align: center;
+      margin-top: 100px;
+   }
+
+   .btn-now {
+      width: 200px;
+      height: 53px;
+      font-size: 15px;
+      margin-top: 150px;
+   }
+ 
 }

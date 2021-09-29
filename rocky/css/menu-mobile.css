@@ -1,0 +1,36 @@
+/* --- Mobile Menu --- */
+.btn-mobile {
+   display: none;
+}
+
+@media only screen and (min-width:300px) and (max-width:900px) {
+   .btn-mobile {
+      display: block;
+      margin: 0;
+   }
+
+   .nav .menu {
+      display: none;
+      position: absolute;
+      width: 40vw;
+      height: 50vh;
+      top: 70px;
+      left: 0px;
+      background-color: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      flex-flow: column nowrap;
+      border-radius: 10%;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+   }
+
+   .nav .menu li a{
+      white-space: nowrap;
+      font-size: 15px;
+      
+   }
+   .active .menu {
+      display: flex;
+   }
+
+}

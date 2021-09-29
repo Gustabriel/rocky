@@ -1,6 +1,8 @@
-function menuToggle() {
+const btnMobile = document.querySelector(".btn-mobile");
 
-   if (document.querySelector(".home").style.width == '100%') {
-   console.log("OK")
-   }
+function toggleMenu(){
+   const nav = document.querySelector(".nav");
+   nav.classList.toggle('active');
 }
+
+btnMobile.addEventListener('click', toggleMenu)
