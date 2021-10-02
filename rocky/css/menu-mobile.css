@@ -3,23 +3,23 @@
    display: none;
 }
 
-@media only screen and (min-width:300px) and (max-width:900px) {
+@media (max-width:900px) {
 
    .nav .menu {
-      display: block;
-      position: absolute;
-      width: 0vw;
-      height: 70vh;
-      top: 0px;
-      left: 0px;
-      padding: 50px 10px;
-      z-index: 1000;
-      transition: .3s;
       visibility: hidden;
       overflow-x: hidden;
+      display: block;
+      flex-flow: column nowrap;
+      width: 0vw;
+      height: 70vh;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      padding: 50px 0px;
+      z-index: 1000;
+      transition: .3s;
       background-color: rgba(255, 255, 255, 0.1);
       backdrop-filter: blur(30px);
-      flex-flow: column nowrap;
       border-radius: 10%;
       border-top-left-radius: 0;
       border-bottom-left-radius: 0;
@@ -68,7 +68,7 @@
       width: 35px;
       margin-top: 0;
       border-top: 3px solid #fff;
-      transition: .3s ease;
+      transition: .3s ease-in-out;
       z-index: 5000;
    }
 
@@ -95,5 +95,12 @@
    .active #btn-menu::after {
       transform: rotate(-135deg);
       top: -10px;
+   }
+}
+
+@media (max-height: 480px) {
+   .active .menu {
+      width: 60vw;
+      height: 80vh;
    }
 }

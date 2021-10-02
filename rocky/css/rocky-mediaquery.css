@@ -1,4 +1,4 @@
-@media only screen and (min-width: 900px) and (max-width: 1600px) {
+@media (max-width: 1600px) {
    html {font-size: 13px;}
    /* ----- HOME ----- */ 
    .title h1 {
@@ -14,11 +14,14 @@
    /* --- About --- */
 
    .about h2 {
+   width: 0;
+   align-items: flex-start;
    font-size: 50px;
    padding: 83px 0 0 110px;
    }
+   
    .about #box-about {
-      width: 900px;
+      width: 1000px;
       height: 452px;
       margin: 80px 500px 400px 200px;
       padding: 48px 36px;
@@ -37,7 +40,7 @@
 
 }
 
-@media only screen and (min-width:900px) and (max-width:1300px) {
+@media (max-width:1300px) {
    html {font-size: 10px;}
    /* ----- HOME ----- */ 
    .title h1 {
@@ -78,7 +81,7 @@
       padding: 20px 0 0 75px;
    }
 
-@media only screen and (min-width:900px) and (max-width:1180px) {
+@media (max-width: 1180px) {
    /* ----- HOME ----- */ 
    .nav ul li a {
       font-size: 12px;
@@ -106,9 +109,15 @@
 }
 
 
-@media only screen and (min-width:600px) and (max-width:900px) {
+@media (max-width:900px) {
    html {font-size: 11px;}
    body {overflow-x: hidden; background: none;}
+   .home {
+      background-image: url(/imagens/mobile/s1-mobile.png);
+      background-attachment: scroll;
+      background-size: 100% 100%;
+      background-position:center;
+   }
    /* ----- HOME ----- */ 
    .header-home {
       flex-flow: row-reverse;
@@ -160,7 +169,6 @@
    align-items: center;
 }
 .about h2 {
-   width: 600px;
    font-size: 40px;
    padding: 10px 0;
    display: flex;
