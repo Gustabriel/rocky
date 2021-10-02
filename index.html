@@ -22,7 +22,12 @@
    <section class="home">
       <header class="header-home">
          <!--Cabeçalho com logo e o menu da página-->
-         <div class="logo"><img src="assets/imagens/web/logo.png" alt="Logo da Rocky" title="Rocky"></div>
+         <div class="logo">
+            <picture>
+               <source media="(max-width: 1310px)" srcset="assets/imagens/mobile/logo.png">
+               <img src="assets/imagens/web/logo.png" alt="Logo da Rocky" title="Rocky">
+            </picture>
+         </div>
          <nav class="nav">
          <!--Menu mobile-->
             <button aria-label="Abrir menu" aria-haspopup="true" aria-expanded="false" class="btn-mobile">

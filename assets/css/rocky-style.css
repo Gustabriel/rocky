@@ -7,11 +7,13 @@
 }
 
 html {
+   font-size: 62.5%;
    scroll-behavior: smooth;
 }
 
 body{
-   
+   width: 100vw;
+   font-size: 1.6rem;
    background-image: url(../imagens/web/bg.png);
    background-size: 100vw 495vh;
    background-repeat: no-repeat;
@@ -30,11 +32,12 @@ a{
 /* --- Header --- */
 
 .header-home{
-   width: 100%;
+   width: 90%;
+   margin: auto;
    display: flex;
-   justify-content: space-around;
+   justify-content: space-between;
    align-items: center;
-   padding: 15px 0px;
+   padding: 1.5rem 0;
 }
 
 .nav ul {
@@ -44,11 +47,11 @@ a{
 
 .nav ul li a {
    display: flex;
-   padding: 5px 24px;
+   padding: .5rem 2.4rem;
    color: #fff;
-   font-size: 16px;
+   font-size: 2.0rem;
    font-weight: 600;
-   border-radius: 10px;
+   border-radius: 1.0rem;
    transition: 0.3s ease-in-out;
 }
 
@@ -62,7 +65,7 @@ a{
 .home {
    background-image: url(../imagens/web/s1-ft1.png);
    background-attachment: fixed;
-   background-size: 100% 100%;
+   background-size: cover;
    background-position:center;
    background-repeat: no-repeat;
    height: 100vh;
@@ -70,6 +73,10 @@ a{
 }
 
 .hero {
+   width: 90%;
+   max-width: 1640px;
+   margin: auto;
+   margin-top: 25rem;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -78,15 +85,23 @@ a{
 }
 
 .title h1 {
-   font-size: 8.815rem;
+   width: 100%;
+   max-width: 1640px;
+   margin: auto;
+   font-size: 14.1rem;
    text-transform: uppercase;
    text-align: center;
-   margin-top: 13%;
 }
 
 .description {
-   font-size: 1.25rem;
-   margin-top: 95px;
+   width: 100%;
+   font-size: 2.0rem;
+   margin: auto;
+   margin-top: 9.5rem;
+}
+
+.description p{
+   text-align: center;
 }
 
 .description span{
@@ -95,17 +110,17 @@ a{
 }
 
 .btn-now {
-   width: 350px;
-   height: 83px;
+   width: 35rem;
+   height: 8.3rem;
    background-color:#1CD4E9;
-   border-radius: 42px;
+   border-radius: 3rem;
    border: none;
    text-align: center;
    text-transform: uppercase;
    color: #FFFFFF;
-   font-size: 1.25rem;
+   font-size: 2.0rem;
    font-weight: 600;
-   margin-top: 66px;
+   margin-top: 9.6rem;
    transition: 0.5s ease-in-out;
 }
 
@@ -118,30 +133,31 @@ a{
 /* --- About --- */
 .about {
    width: 100%;
+   height: 100%;
    height: 100vh;
    display: flex;
+   padding: 5.188rem 35.563rem 0 8.75rem;
+   flex-direction: column;
+   align-items: start;
 }
 
 .about h2 {
-   align-items: flex-start;
-   font-size: 60px;
+   font-size: 6.0rem;
    text-transform: uppercase;
    font-weight: bold;
 }
 
-.about #box-about {
+#box-about {
    background-color: #fff;
-   width: 1211px;
-   height: 552px;
-   margin: 100px 500px 400px 200px;
-   padding: 48px 46px;
-   box-shadow: 0px 0px 30px#0000004D;
+   width: 75.688rem;
+   height: 38.25rem;
+   margin-top: 7.688rem;
+   box-shadow: 0px 0px 3.0rem#0000004D;
 }
 
 .about #box-about p {
-   font-size: 20px;
+   font-size: 1.25rem;
    text-align: left;
-   margin-bottom: 25px;
 }
 
 
@@ -154,7 +170,7 @@ a{
 }
 
 .service h2, .diff h2 {
-   font-size: 60px;
+   font-size: 6.0rem;
    padding: 20px 0 0 130px;
    text-transform: uppercase;
    font-weight: bold;
@@ -166,3 +182,5 @@ a{
    width: 100%;
    height: 100vh;
 }
+
+
