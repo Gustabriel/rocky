@@ -5,7 +5,9 @@
       margin-top: 9rem;
    }
    /* --- About --- */
-
+   .about h2 {
+      padding-bottom: 10rem;
+   }
    /* --- Service --- */
 
    .service h2, .diff h2 {

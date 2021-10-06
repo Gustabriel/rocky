@@ -12,7 +12,7 @@ html {
 }
 
 body{
-   width: 100vw;
+   width: 100%;
    font-size: 1.6rem;
    background-image: url(../imagens/web/bg.png);
    background-size: 100vw 495vh;
@@ -74,7 +74,7 @@ a{
 
 .hero {
    width: 90%;
-   max-width: 1640px;
+   max-width: 1650px;
    margin: auto;
    margin-top: 25rem;
    display: flex;
@@ -136,7 +136,7 @@ a{
    height: 100%;
    height: 100vh;
    display: flex;
-   padding: 5.188rem 35.563rem 0 8.75rem;
+   padding: 8.3rem 56.9rem 0 14rem;
    flex-direction: column;
    align-items: start;
 }
@@ -145,19 +145,31 @@ a{
    font-size: 6.0rem;
    text-transform: uppercase;
    font-weight: bold;
+   padding-bottom: 13rem;
 }
 
 #box-about {
    background-color: #fff;
-   width: 75.688rem;
-   height: 38.25rem;
-   margin-top: 7.688rem;
+   width: 121.1rem;
+   height: 61.2rem;
    box-shadow: 0px 0px 3.0rem#0000004D;
 }
 
 .about #box-about p {
-   font-size: 1.25rem;
+   font-size: 2.0rem;
    text-align: left;
+   padding: 0rem 4.6rem;
+   line-height: 3.0rem;
+}
+
+#box-about p:first-child {
+   padding-top: 4.8rem;
+   padding-bottom: 2.7rem;
+}
+
+#box-about p:last-child {
+   padding-top: 2.7rem;
+   padding-bottom: 4.8rem;
 }
 
 
@@ -176,7 +188,66 @@ a{
    font-weight: bold;
 }
 
-/* --- Service --- */
+/* Cards*/
+#card1 {
+   background-image: url(../imagens/web/s3-ft1.png);
+}
+#card2 {
+   background-image: url(../imagens/web/s3-ft2.png);
+}
+#card3 {
+   background-image: url(../imagens/web/s3-ft3.png); 
+}
+
+#card1, #card2, #card3 {
+   background-size:  100% 100%;
+   border-radius: 3.5rem;
+}
+
+.cards {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 13rem;
+}
+
+.card {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   width: 51.4rem;
+   height: 64.8rem;
+   margin-right: 4.9rem;
+}
+
+.card:last-child {
+   margin-right: 0;
+}
+
+section.card h3 {
+   color: #EFE60B;
+   font-size: 3rem;
+   padding: 4.5rem 0rem;
+}
+
+section.card .p1, section.card .p2{
+   color: #FFFFFF;
+   font-size: 2.5rem;
+   text-align: center;
+   line-height: 3.0rem;
+}
+
+section.card .p1 {
+   padding: 3.9rem 5.2rem 5rem 6.5rem;
+}
+
+section.card .p2 {
+   padding: 0rem 5.2rem 8.1rem 6.5rem;
+}
+
+
+/* --- Diferenciais --- */
 
 .diff {
    width: 100%;
