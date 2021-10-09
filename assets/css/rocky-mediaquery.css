@@ -12,9 +12,8 @@
    }
    /* --- Service --- */
 
-   .service h2, .diff h2 {
-      font-size: 50px;
-      padding: 20px 0 0 110px;
+   .container-service {
+      padding-top: 2.0rem;
    }
 
 }
@@ -37,8 +36,10 @@
 
    /* --- Service --- */
 
-   .cards {
-      height: 100%;
+   
+
+   .cards-description {
+      font-size: 2.2rem;
    }
 
    .service h2, .diff h2 {
@@ -108,11 +109,31 @@
 
    /* --- Service --- */
 
-   
-
-   .service h2, .diff h2 {
-      font-size: 40px;
+   .cards {
+      flex-direction: column;
    }
+
+   .card {
+      width: 70%;
+      height: auto;
+      padding-bottom: 10rem;
+      margin-right: 0;
+      margin-bottom: 6rem;
+   }
+
+   section.card h3 {
+      font-size: 6rem;
+   }
+
+   .cards-description {
+      width: 80%;
+      font-size: 4rem;
+      line-height: 6.0rem;
+      height: 100%;
+      margin-top: 4%;
+   } 
+
+
 }
 
 
@@ -150,7 +171,6 @@
    .description {
       text-align: center;
       margin-top: 100px;
-      padding: 0 50px;
       width: 80vw;
    }
 
@@ -163,14 +183,49 @@
 
    /* --- about --- */
 
+   .about {
+      padding-bottom: 3rem;
+   }
+
+   .about h2 {
+      padding: 2rem;
+   }
+
    .container-about {
-      height: auto;
-      padding: 0;
+      padding: 5rem;
    }
    
    .container-about #box-about p {
       font-size: 2.1rem;
       line-height: 2.7rem
    }
+
+
+   /* --- service --- */
+   .cards {
+      padding-top: 2rem;;
+   }
+   .card {
+      width: 90%;
+      margin-right: 0;
+      margin-bottom: 6rem;
+   }
+
+   .service h2, .diff h2 {
+      font-size: 40px;
+      padding:0 0 3rem 7rem;
+   }
+
+   section.card h3 {
+      font-size: 4rem;
+   }
+
+   .cards-description {
+      width: 80%;
+      font-size: 3rem;
+      line-height: 3rem;
+      height: 100%;
+      margin-top: 4%;
+   } 
  
 }
