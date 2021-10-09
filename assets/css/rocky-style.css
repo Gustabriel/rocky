@@ -265,15 +265,90 @@ section.card .p1 {
 
 .diff {
    min-height: 100vh;
+   height: 100%;
    width: 100%;
-   height: 100vh;
+}
+
+.container-diff {
+   height: auto;
+   width: auto;
+   padding-top: 6.0rem;
 }
 
 .diff h2 {
    font-size: 6.0rem;
-   padding: 2.0rem 0 0 13.0rem;
+   padding-left: 15.0rem;
    text-transform: uppercase;
    font-weight: bold;
 }
 
+/* Cards*/
+#card1-diff {
+   background-image: url(../imagens/web/s4-ft1.png);
+}
+#card2-diff {
+   background-image: url(../imagens/web/s4-ft2.png);
+}
+#card3-diff {
+   background-image: url(../imagens/web/s4-ft3.png); 
+}
 
+#card1-diff, #card2-diff, #card3-diff {
+   background-size:  100% 100%;
+   border-radius: 3.5rem;
+}
+
+.cards-diff {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-top: 7rem;
+   max-width: 80%;
+   margin: auto;
+}
+
+.card-diff {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   width: 39rem;
+   height: 67rem;
+   margin-right: 4.9rem;
+}
+
+.card-diff:last-child {
+   margin-right: 0;
+}
+
+section.card-diff h3 {
+   color: #EFE60B;
+   font-size: 3rem;
+   padding: 4.5rem 1rem;
+}
+
+
+.cards-description-diff {
+   width: 75%;
+   padding-top: 2rem;
+   padding: auto;
+   color: #FFFFFF;
+   font-size: 2.5rem;
+   text-align: center;
+   line-height: 3.0rem;
+} 
+
+/* --- contact --- */
+
+.contact {
+   min-height: 100vh;
+   height: 100%;
+   width: 100%;
+}
+
+.diff h2 {
+   font-size: 6.0rem;
+   padding-left: 15.0rem;
+   text-transform: uppercase;
+   font-weight: bold;
+}

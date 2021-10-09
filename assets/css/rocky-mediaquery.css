@@ -38,7 +38,7 @@
 
    
 
-   .cards-description {
+   .cards-description, .cards-descriptio-diff {
       font-size: 2.2rem;
    }
 
@@ -109,11 +109,11 @@
 
    /* --- Service --- */
 
-   .cards {
+   .cards, .cards-diff {
       flex-direction: column;
    }
 
-   .card {
+   .card, .card-diff  {
       width: 70%;
       height: auto;
       padding-bottom: 10rem;
@@ -121,11 +121,26 @@
       margin-bottom: 6rem;
    }
 
-   section.card h3 {
+   .card-diff {
+      width: 90%;
+      height: 85.0rem; 
+   }
+
+   #card1-diff {
+      background-image: url(../imagens/web/s4-ft01.png);
+   }
+   #card2-diff {
+      background-image: url(../imagens/web/s4-ft2.png);
+   }
+   #card3-diff {
+      background-image: url(../imagens/web/s4-ft3.png); 
+   }
+
+   section.card h3, section.card-diff h3 {
       font-size: 6rem;
    }
 
-   .cards-description {
+   .cards-description, .cards-description-diff {
       width: 80%;
       font-size: 4rem;
       line-height: 6.0rem;
@@ -201,11 +216,11 @@
    }
 
 
-   /* --- service --- */
-   .cards {
+   /* --- service/diff --- */
+   .cards, .cards-diff {
       padding-top: 2rem;;
    }
-   .card {
+   .card, .card-diff {
       width: 90%;
       margin-right: 0;
       margin-bottom: 6rem;
@@ -216,11 +231,11 @@
       padding:0 0 3rem 7rem;
    }
 
-   section.card h3 {
+   section.card h3,section.card-diff h3 {
       font-size: 4rem;
    }
 
-   .cards-description {
+   .cards-description, .cards-description-diff {
       width: 80%;
       font-size: 3rem;
       line-height: 3rem;
