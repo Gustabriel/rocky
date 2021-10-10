@@ -15,7 +15,7 @@ body{
    width: 100%;
    font-size: 1.6rem;
    background-image: url(../imagens/web/bg.png);
-   background-size: 100% 495vh;
+   background-size: 100% 540vh;
    background-repeat: no-repeat;
 }
 
@@ -30,6 +30,7 @@ a{
 }
 
 h1, h2, h3 {
+   width: auto;
    text-transform: uppercase;
 }
 /* --- Header --- */
@@ -317,7 +318,8 @@ section.card-service .p1 {
 }
 
 .card-diff:last-child {
-   margin-right: 0;
+   margin-left: 0;
+   margin-right: 3rem;
 }
 
 section.card-diff h3 {
@@ -345,8 +347,168 @@ section.card-diff h3 {
    width: 100%;
 }
 
-.contact h2 {
-   font-size: 6.0rem;
-   padding-left: 14rem;
-   font-weight: bold;
+.container-contact {
+   height: auto;
+   width: auto;
+   border-top: 8.3rem solid #EFE60B;
+   border-bottom: 8.3rem solid #EFE60B;
+   background-color: #000000E6;
+   color: #FFFFFF;
+   display: flex;
+}
+
+
+/* --- contact-infos --- */
+
+.contact .infos {
+   max-width: 10%;
+   min-width: 30%;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   flex-flow: column nowrap;
+   margin: 7.8rem 0 7.7rem 14rem;
+}
+
+
+#content1 a img {
+   width: 5.7rem;
+}
+
+#content1 {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: nowrap;
+   align-items: center;
+}
+
+.redes {
+   width: auto;
+   
+}
+
+.redes #logo-face {
+   margin-right: 7rem;
+   padding: auto;
+}
+
+
+
+#content2 {
+   display: flex;
+   justify-content: space-between;
+}
+
+#content2 img, #content3 img{
+   width: 2.8rem;
+}
+
+#content2 p{
+   font-size: 2.0rem;
+   padding-left: 2rem;
+}
+
+.msg, .tel{
+   display: flex;
+   align-items: center;
+   padding: 4.5rem 0 4rem 0;
+}
+
+#content3 {
+   display: flex;
+   justify-content: flex-start;
+   padding-bottom: 8.0rem;
+   align-items: center;
+}
+
+#content3 address {
+   max-width: 46.0rem;
+   font-size: 1.2rem;
+   padding: 0 2rem;
+   text-align: left;
+}
+
+
+#content4 {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   text-align: left;
+}
+
+#txt-white, #txt-yellow {
+   padding-bottom: 4.0rem;
+}
+
+#txt-white, #txt-yellow, #txt-blue {
+   font-size: 2.0rem;
+   font-weight: 600;
+   line-height: 3.0rem;
+}
+
+#txt-white{
+   color: #FFFFFF;
+}
+
+#txt-yellow{
+   color: #EFE60B;
+}
+
+#txt-blue{
+   color: #1CD4E9;
+}
+
+/* --- contact-form --- */
+.container-contact .email {
+   width: 100%;
+   margin: 8.3rem 0 8.3rem 15%;
+}
+
+.contact .email form {
+   max-width: 70%;
+   margin: auto;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   flex-flow: column;
+   width: 90%;
+   height: 100%;
+   background-color: #818181;
+}
+
+.contact .email input, .contact .email textarea, .contact .email #btn-mail {
+   margin: auto;
+   margin-top: 0;
+   width: 90%;
+}
+
+.contact .email input:first-child {
+   margin-top: 3.0rem;
+}
+
+.contact .email input, .contact .email #btn-mail  {
+   height: 7.6rem;
+}
+
+.contact .email input::placeholder, .contact .email textarea::placeholder {
+   color: #D1D1D1;
+   font-size: 3.0rem;
+   font-weight: medium;
+   padding: 2.0rem 0 1.9rem 1.9rem;
+   text-align: left;
+}
+
+.contact .email textarea {
+   height: 20.0rem;
+   margin-bottom: 6.0rem;
+}
+
+.contact .email #btn-mail {
+   border: none;
+   background-color: #1CD4E9;
+   color: #FFFFFF;
+   font-size: 2.9rem;
+   font-weight: 600;
+   text-align: center;
+   text-transform: uppercase;
 }

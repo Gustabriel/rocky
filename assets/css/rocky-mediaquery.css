@@ -45,6 +45,7 @@
    .service h2, .diff h2 {
       font-size: 40px;
       padding: 20px 0 0 75px;
+      width: auto;
    }
 
 }
@@ -93,6 +94,7 @@
    }
 
    .about h2 {
+      width: auto;
       font-size: 40px;
       display: flex;
       align-items: flex-start;
@@ -134,12 +136,13 @@
    }
 
    section.card-service h3, section.card-diff h3 {
+      width: auto;
       font-size: 6rem;
       padding-top: 12rem;
-      min-width: 450px;
    }
 
    section.card-service h3 {
+      width: auto;
       padding-right: 5rem;
       padding-left: 5rem;
    }
@@ -154,6 +157,7 @@
    } 
 
    .service h2 {
+      width: auto;
       padding-top: 0;
    }
 
@@ -163,6 +167,52 @@
    }
 
 
+
+
+   /* --- Contact --- */
+   .container-contact {
+      display: flex;
+      flex-direction: column;
+   }
+
+   .contact .infos {
+      max-width: 70%;
+      padding: 10rem 5rem; 
+      margin: auto;
+   }
+   
+   .contact .email form {
+      padding: 10rem 5rem;
+   }
+
+   #content2 p{
+      font-size: 3.0rem;
+   }
+
+   #content3 address {
+      max-width: 100%;
+      font-size: 2.2rem;
+   }
+
+   #txt-white, #txt-yellow, #txt-blue {
+      font-size: 3.0rem;
+      line-height: 4.0rem;
+   }
+
+   /* --- contact-form --- */
+   .container-contact .email {
+      width: 100%;
+      margin: auto;
+   }
+
+   .contact .email form {
+      padding: 3rem;
+      margin-bottom: 7rem;
+   }
+
+   .contact .email input, .contact .email textarea, .contact .email #btn-mail {
+      margin-bottom: 4rem;
+   }
 }
 
 
@@ -175,6 +225,8 @@
       background-size: 100% 100%;
       background-position:center;
    }
+
+
 /* ----- HOME ----- */ 
    .header-home {
       flex-flow: row-reverse;
@@ -246,18 +298,22 @@
    }
 
    .service h2, .diff h2 {
-      font-size: 40px;
+      width: auto;
+      font-size: 5.5rem;
       padding:0 0 3rem 7rem;
    }
 
+   .diff h2 { padding-left: 5rem;}
+   
    section.card-service h3,section.card-diff h3 {
       font-size: 4rem;
-      
+      width: auto;
    }
+   
 
    .cards-description-service, .cards-description-diff {
       width: 80%;
-      font-size: 3rem;
+      font-size: 2.5rem;
       line-height: 3rem;
       height: 100%;
       margin-top: 4%;
@@ -266,6 +322,49 @@
    section.card-diff h3 {
       padding-right: 5rem;
       padding-left: 5rem;
+      max-width: 80%;
    }
 
+   .card-diff:last-child {
+      margin-right: 0rem;
+   }
+
+   /* --- contact infos --- */
+
+   .container-contact .infos {
+      padding-left: 0rem;
+      padding-right: 0rem;
+      margin: auto;
+      min-width: 0%;
+      max-width: 85%;
+      width: 85%;
+   }
+
+   /* --- contact form --- */
+   .container-contact .email {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+   }
+
+   .contact .email form {
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
+      margin: 0;
+      padding: 0;
+   }
+
+   #content2 p{
+      font-size: 2.0rem;
+   }
+
+   #content3 address {
+      font-size: 1.8rem;
+   }
+
+   #txt-white, #txt-yellow, #txt-blue {
+      font-size: 2.0rem;
+      line-height: 3.0rem;
+   }
 }
