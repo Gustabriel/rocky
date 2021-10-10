@@ -38,7 +38,7 @@
 
    
 
-   .cards-description, .cards-descriptio-diff {
+   .cards-description-service, .cards-descriptio-diff {
       font-size: 2.2rem;
    }
 
@@ -88,6 +88,10 @@
 
 /* --- About --- */
 
+   .about {
+      padding-bottom: 0;
+   }
+
    .about h2 {
       font-size: 40px;
       display: flex;
@@ -109,44 +113,54 @@
 
    /* --- Service --- */
 
-   .cards, .cards-diff {
+   .cards-service, .cards-diff {
       flex-direction: column;
    }
 
-   .card, .card-diff  {
+   .card-service{
+      margin-right: 0;
+   }
+   .card-service, .card-diff  {
       width: 70%;
       height: auto;
       padding-bottom: 10rem;
-      margin-right: 0;
+      margin-left: 0;
       margin-bottom: 6rem;
    }
 
    .card-diff {
-      width: 90%;
-      height: 85.0rem; 
+      width: 75%;
+      height: 95.0rem; 
    }
 
-   #card1-diff {
-      background-image: url(../imagens/web/s4-ft01.png);
-   }
-   #card2-diff {
-      background-image: url(../imagens/web/s4-ft2.png);
-   }
-   #card3-diff {
-      background-image: url(../imagens/web/s4-ft3.png); 
-   }
-
-   section.card h3, section.card-diff h3 {
+   section.card-service h3, section.card-diff h3 {
       font-size: 6rem;
+      padding-top: 12rem;
+      min-width: 450px;
    }
 
-   .cards-description, .cards-description-diff {
+   section.card-service h3 {
+      padding-right: 5rem;
+      padding-left: 5rem;
+   }
+ 
+
+   .cards-description-service, .cards-description-diff {
       width: 80%;
       font-size: 4rem;
       line-height: 6.0rem;
       height: 100%;
       margin-top: 4%;
    } 
+
+   .service h2 {
+      padding-top: 0;
+   }
+
+   section.card-diff h3 {
+      padding-right: 15rem;
+      padding-left: 15rem;
+   }
 
 
 }
@@ -217,13 +231,18 @@
 
 
    /* --- service/diff --- */
-   .cards, .cards-diff {
+   .cards-service, .cards-diff {
       padding-top: 2rem;;
    }
-   .card, .card-diff {
+   .card-service, .card-diff {
       width: 90%;
       margin-right: 0;
       margin-bottom: 6rem;
+   }
+
+   .card-diff {
+      width: 100%;
+      height: 80rem; 
    }
 
    .service h2, .diff h2 {
@@ -231,16 +250,22 @@
       padding:0 0 3rem 7rem;
    }
 
-   section.card h3,section.card-diff h3 {
+   section.card-service h3,section.card-diff h3 {
       font-size: 4rem;
+      
    }
 
-   .cards-description, .cards-description-diff {
+   .cards-description-service, .cards-description-diff {
       width: 80%;
       font-size: 3rem;
       line-height: 3rem;
       height: 100%;
       margin-top: 4%;
    } 
- 
+
+   section.card-diff h3 {
+      padding-right: 5rem;
+      padding-left: 5rem;
+   }
+
 }
