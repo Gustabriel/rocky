@@ -29,8 +29,8 @@
 # 📝 Sobre:
 ##O projeto do site **Rocky** é um processo seletivo da **empresa** Rocky, uma landing page do site da empresa, baseado nos mackoups disponibilizados.
 ---
-## 💾 Tecnologias utilizadas:
-####O Projeto foi desenvolvido utilizando as seguintes tecnologias:
+# 💾 Tecnologias utilizadas:
+##O Projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 - CSS;
 - HTML;
@@ -53,9 +53,9 @@ $ cd rocky
 
 
 # 🥇 Aprendizagem durante o projeto:
-#### - O que mais tive dificuldade durante o desenvolvimento desse projeto foi na parte de alinhamento e responsividade do site, foi dificil tentar deixar o site totalmente responsivo conforme sua largura fosse diminuindo.
-#### - Porém, essas dificuldades contribuiu muito na minha evolução dentro do CSS e consegui aprender bastante sobre responsividadem.
-#### - Ainda pretendo aprimorar o site e adicionar mais funcionalidades e deixar ele mais dinâmico.
+## - O que mais tive dificuldade durante o desenvolvimento desse projeto foi na parte de alinhamento e responsividade do site, foi dificil tentar deixar o site totalmente responsivo conforme sua largura fosse diminuindo.
+## - Porém, essas dificuldades contribuiu muito na minha evolução dentro do CSS e consegui aprender bastante sobre responsividadem.
+## - Ainda pretendo aprimorar o site e adicionar mais funcionalidades e deixar ele mais dinâmico.
 
 ---
 
