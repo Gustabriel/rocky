@@ -16,7 +16,7 @@
 </details>
 
 <details close>
-  <summary style="text-align: center; font-size:50px;"> 
+  <summary align="center"> 
   Site no modo mobile  📱
   </summary>
    <h1 style="margin: auto">
