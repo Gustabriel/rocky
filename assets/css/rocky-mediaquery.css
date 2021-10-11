@@ -1,103 +1,72 @@
 @media (max-width: 1610px) {
+   /* diminuida a porcentagem das medidas da page */
    html {font-size: 50%;}
-   /* ----- HOME ----- */ 
-   .home .hero {
-      margin-top: 12rem;
-   }
-   /* --- About --- */
-   
-   
-   .about h2 {
-      padding-bottom: 10rem;
-   }
-   /* --- Service --- */
+   /* ------------------------ HOME ------------------------ */
+   .home .hero { margin-top: 12rem; }
 
-   .container-service {
-      padding-top: 2.0rem;
-   }
+   /* ------------------------ ABOUT ------------------------ */
+   .about h2 { padding-bottom: 10rem; }
 
+   /* ------------------------ SERVICE ------------------------ */
+   .container-service { padding-top: 2.0rem; }
 }
 
 @media (max-width:1310px) {
+   /* diminuida a porcentagem das medidas da page */
    html {font-size: 45%;}
-   /* ----- HOME ----- */ 
-   .nav ul li a {
-      font-size: 1.9rem;
-   }
+   /* ------------------------ HOME ------------------------ */
+   .nav ul li a { font-size: 1.9rem; }
 
-   /* --- About --- */
-   .about #box-about {
-      width: 115rem;
-   }
+   /* ------------------------ ABOUT ------------------------ */
+   .about #box-about { width: 115rem; }
+   .about #box-about p { font-size: 120%; }
 
-   .about #box-about p {
-      font-size: 120%;
-   }
-
-   /* --- Service --- */
-
-   
-
-   .cards-description-service, .cards-descriptio-diff {
-      font-size: 2.2rem;
-   }
-
+   /* ------------------------ SERVICE ------------------------ */
+   .cards-description-service, .cards-descriptio-diff { font-size: 2.2rem; }
    .service h2, .diff h2 {
-      font-size: 40px;
-      padding: 20px 0 0 75px;
+      /* alterações nos titulos do service e do diferenciais */
       width: auto;
+      padding: 20px 0 0 75px;
+      font-size: 40px;
    }
-
 }
-
 
 @media (max-width:955px) {
    html {font-size: 30%;}
    body {overflow-x: hidden; background: none;}
    
-   /* ----- HOME ----- */ 
-   .header-home {
-      flex-flow: row-reverse;
-   }
-
+   /* ------------------------ HOME ------------------------ */
+   .header-home { flex-flow: row-reverse; }
    .hero {
       margin-top: 10em;
-      width: 90%;
    }
 
    .logo {
-      width: 100vw;
-      margin-right: 3.0rem;
       display: flex;
       justify-content: center;
+      width: 100vw;
+      margin-right: 3.0rem;
       align-items: center;
    }
 
-
    .description {
-      text-align: center;
       font-size: 160%;
    }
-   
 
    .btn-now {
       width: 55rem;
       height: 12rem;
-      font-size: 180%;
       margin-top: 25rem;
+      font-size: 180%;
    }
 
-/* --- About --- */
-
-   .about {
-      padding-bottom: 0;
-   }
-
+/* ------------------------ ABOUT ------------------------ */
+   .about { padding-bottom: 0; }
    .about h2 {
-      width: auto;
-      font-size: 40px;
       display: flex;
       align-items: flex-start;
+      width: auto;
+      font-size: 40px;
       }
 
    .about #box-about {
@@ -113,15 +82,9 @@
       line-height: 4rem
    }
 
-   /* --- Service --- */
-
-   .cards-service, .cards-diff {
-      flex-direction: column;
-   }
-
-   .card-service{
-      margin-right: 0;
-   }
+/* ------------------------ SERVICE/DIFERENCIAIS ------------------------ */
+   .cards-service, .cards-diff { flex-direction: column; }
+   .card-service{ margin-right: 0; }
    .card-service, .card-diff  {
       width: 70%;
       height: auto;
@@ -150,10 +113,10 @@
 
    .cards-description-service, .cards-description-diff {
       width: 80%;
-      font-size: 4rem;
-      line-height: 6.0rem;
       height: 100%;
       margin-top: 4%;
+      font-size: 4rem;
+      line-height: 6.0rem;
    } 
 
    .service h2 {
@@ -166,10 +129,7 @@
       padding-left: 15rem;
    }
 
-
-
-
-   /* --- Contact --- */
+/* ------------------------ CONTACT ------------------------ */
    .container-contact {
       display: flex;
       flex-direction: column;
@@ -181,13 +141,8 @@
       margin: auto;
    }
    
-   .contact .email form {
-      padding: 10rem 5rem;
-   }
-
-   #content2 p{
-      font-size: 3.0rem;
-   }
+   .contact .email form { padding: 10rem 5rem; }
+   #content2 p{ font-size: 3.0rem; }
 
    #content3 address {
       max-width: 100%;
@@ -199,7 +154,7 @@
       line-height: 4.0rem;
    }
 
-   /* --- contact-form --- */
+/* ------------------------ CONTACT-FORM ------------------------ */
    .container-contact .email {
       width: 100%;
       margin: auto;
@@ -210,11 +165,8 @@
       margin-bottom: 7rem;
    }
 
-   .contact .email input, .contact .email textarea, .contact .email #btn-mail {
-      margin-bottom: 4rem;
-   }
+   .contact .email input, .contact .email textarea, .contact .email #btn-mail { margin-bottom: 4rem; }
 }
-
 
 @media (max-width:650px) {
    html {font-size: 40%;}
@@ -226,33 +178,29 @@
       background-position:center;
    }
 
-
-/* ----- HOME ----- */ 
-   .header-home {
-      flex-flow: row-reverse;
-   }
-   
+/* ------------------------ HOME ------------------------ */
+   .header-home { flex-flow: row-reverse; }
    
    .logo {
-      width: 100vw;
-      margin-right: 40px;
       display: flex;
       justify-content: center;
+      width: 100vw;
+      margin-right: 40px;
       align-items: center;
    }
 
    .title h1 {
-      text-align: center;
-      font-size: 35px;
       width: 95%;
       margin: auto;
       margin-top: 0px; 
+      text-align: center;
+      font-size: 35px;
    }
 
    .description {
-      text-align: center;
       margin-top: 100px;
       width: 80vw;
+      text-align: center;
    }
 
    .btn-now {
@@ -262,30 +210,18 @@
       margin-top: 100px;
    }
 
-   /* --- about --- */
-
-   .about {
-      padding-bottom: 3rem;
-   }
-
-   .about h2 {
-      padding: 2rem;
-   }
-
-   .container-about {
-      padding: 5rem;
-   }
+   /* ------------------------ ABOUT ------------------------ */
+   .about { padding-bottom: 3rem; }
+   .about h2 { padding: 2rem; }
+   .container-about { padding: 5rem; }
    
    .container-about #box-about p {
       font-size: 2.1rem;
       line-height: 2.7rem
    }
 
-
-   /* --- service/diff --- */
-   .cards-service, .cards-diff {
-      padding-top: 2rem;;
-   }
+/* ------------------------ SERVICE/DIFERENCIAIS ------------------------ */
+   .cards-service, .cards-diff { padding-top: 2rem; }
    .card-service, .card-diff {
       width: 90%;
       margin-right: 0;
@@ -299,48 +235,44 @@
 
    .service h2, .diff h2 {
       width: auto;
-      font-size: 5.5rem;
       padding:0 0 3rem 7rem;
+      font-size: 5.5rem;
    }
 
-   .diff h2 { padding-left: 5rem;}
+   .diff h2 { padding-left: 5rem; }
    
    section.card-service h3,section.card-diff h3 {
-      font-size: 4rem;
       width: auto;
+      font-size: 4rem;
    }
    
-
    .cards-description-service, .cards-description-diff {
       width: 80%;
-      font-size: 2.5rem;
-      line-height: 3rem;
       height: 100%;
       margin-top: 4%;
+      font-size: 2.5rem;
+      line-height: 3rem;
    } 
 
    section.card-diff h3 {
+      max-width: 80%;
       padding-right: 5rem;
       padding-left: 5rem;
-      max-width: 80%;
    }
 
-   .card-diff:last-child {
-      margin-right: 0rem;
-   }
+   .card-diff:last-child { margin-right: 0rem; }
 
-   /* --- contact infos --- */
-
+/* ------------------------ CONTACT-INFOS ------------------------ */
    .container-contact .infos {
-      padding-left: 0rem;
-      padding-right: 0rem;
-      margin: auto;
       min-width: 0%;
       max-width: 85%;
       width: 85%;
+      padding-left: 0rem;
+      padding-right: 0rem;
+      margin: auto;
    }
 
-   /* --- contact form --- */
+/* ------------------------ CONTACT-FORM ------------------------ */
    .container-contact .email {
       width: 100%;
       margin: 0;
@@ -355,13 +287,8 @@
       padding: 0;
    }
 
-   #content2 p{
-      font-size: 2.0rem;
-   }
-
-   #content3 address {
-      font-size: 1.8rem;
-   }
+   #content2 p{ font-size: 2.0rem; }
+   #content3 address { font-size: 1.8rem; }
 
    #txt-white, #txt-yellow, #txt-blue {
       font-size: 2.0rem;

@@ -19,21 +19,23 @@
    <title>Rocky</title>
 </head>
 <body>
+   <!--Primeira section que é a home, onde vai ficar a primeira imagem que o cliente vai ver da empresa-->
    <section class="home">
       <header class="header-home">
          <!--Cabeçalho com logo e o menu da página-->
          <div class="logo">
+            <!--Usando a tag picture para responsividade, quando o site atingir uma largura de 1310px o logo será trocado para um logo menor-->
             <picture>
                <source media="(max-width: 1310px)" srcset="assets/imagens/mobile/logo.png">
                <img src="assets/imagens/web/logo.png" alt="Logo da Rocky" title="Rocky">
             </picture>
          </div>
          <nav class="nav">
-         <!--Menu mobile-->
+         <!--Menu mobile hamburger-->
             <button aria-label="Abrir menu" aria-haspopup="true" aria-expanded="false" class="btn-mobile">
                <span id="btn-menu"></span>
             </button>
-
+         <!--Menu/Menu mobile-->
             <ul class="menu" role="menu">
                <li><a href="#sobre">Sobre a Rocky</a></li>
                <li><a href="#servicos">Serviços</a></li>
@@ -45,139 +47,204 @@
          </nav>
       </header>
 
+         <!-- Sessão dentro da home, onde está localizado o titulo do site/breve descrição e um button para entrar em contato com a empresa-->
       <section class="hero">
-      <div class="title">
-         <h1>Full digital performance</h1>
-      </div>
-      <div class="description">
-         <p>Lorem ipsum dolor sit amet, consectetur <span>sadispscing elitr, sed diam nonumy eirmod</span></p>
-         <p>tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero</p>
-      </div>
-      <div class="button-contact-now">
-         <button type="button" class="btn-now">
-            Entre em contato agora
-         </button>
-      </div>
+         <div class="title">
+            <h1>Full digital performance</h1>
+         </div>
+         <div class="description">
+            <p>Lorem ipsum dolor sit amet, consectetur <span>sadispscing elitr, sed diam nonumy eirmod</span></p>
+            <p>tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero</p>
+         </div>
+         <div class="button-contact-now">
+            <button type="button" class="btn-now">Entre em contato agora</button>
+         </div>
       </section>
    </section>
 
-      <section class="about" id="sobre">
-         <div class="container-about">
-            <div class="title">
-               <h2>Sobre</h2>
-            </div>
-            <div id="box-about">
-               <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita</p>
-               <p><strong>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita</strong></p>
-               <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita</p>
-            </div>
-      </section>
-            
-      <section class="service" id="servicos">
-            <div class="container-service">
-               <div class="title">
-                  <h2>Serviços</h2>
-               </div>
-               <div class="cards-service">
-                  <section class="card-service" id="card1-service">
-                     <h3>Serviços</h3>
-                     <div class="cards-description-service">
-                        <p class="p1">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam</p>
-                        <p class="p2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam</p>
-                     </div>
-                  </section>
-                  <section class="card-service" id="card2-service">
-                     <h3>Mídia Digital de Performance</h3>
-                     <div class="cards-description-service">
-                        <p class="p1">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam</p>
-                        <p class="p2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam</p>
-                     </div>
-                  </section>
-                  <section class="card-service" id="card3-service">
-                     <h3>Implementações Tecnológicas</h3>
-                     <div class="cards-description-service">
-                        <p class="p1">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam</p>
-                        <p class="p2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam</p>
-                     </div>
-                  </section>
-               </div>
-            </div>
-          
-      </section>
-
-      <section class="diff" id="diferenciais">
-         <div class="container-diff">
-            <div class="title">
-               <h2>Diferenciais</h2>
-            </div>
-            <div class="cards-diff">
-               <section class="card-diff" id="card1-diff">
-                  <h3><img src="./assets/imagens/web/medal-icon.png" alt="icone de medalha com estrela"></h3>
-                  <div class="cards-description-diff">
-                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo </p>
-                  </div>
-               </section>
-               <section class="card-diff" id="card2-diff">
-                  <h3><img src="./assets/imagens/web/medal-icon.png" alt="icone de medalha com estrela"></h3>
-                  <div class="cards-description-diff">
-                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo </p>
-                  </div>
-               </section>
-               <section class="card-diff" id="card3-diff">
-                  <h3><img src="./assets/imagens/web/medal-icon.png" alt="icone de medalha com estrela"></h3>
-                  <div class="cards-description-diff">
-                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo </p>
-                  </div>
-               </section>
-            </div>
+         <!-- Sessão onde é abordado um pouco sobre a empresa, com um texto dentro de uma box-->
+   <section class="about" id="sobre">
+      <div class="container-about">
+         <div class="title">
+            <h2>Sobre</h2>
          </div>
-      </section>
 
-      <section class="contact" id="contato">
-         <div class="container-contact">
-            <section class="infos">
-               <div id="content1">
-                  <picture>
-                     <source media="(max-width: 1200px)" srcset="assets/imagens/mobile/logo.png">
-                     <img src="assets/imagens/web/logo.png" alt="Logo da Rocky" title="Rocky">
-                  </picture>
-                  <div class="redes">
-                     <a href="https://www.facebook.com/RockyDigitalPerformance/"><img src="./assets/imagens/web/icon-face.png" alt="" id="logo-face"></a>
-                     <a href="https://www.linkedin.com/company/rocky-ag/?originalSubdomain=br"><img src="./assets/imagens/web/icon-linkedin.png" alt=""></a>
-                  </div>
-               </div>
-               <div id="content2">
-                  <div class="msg"><img src="./assets/imagens/web/icon-msg.png" alt=""><p>contato@rocky.ag</p></div>
-                  <div class="tel"><img src="./assets/imagens/web/icon-tel.png" alt=""><p>(15) 3321-1105</p></div>
-               </div>
-               <div id="content3">
-                  <img src="./assets/imagens/web/icon-gps.png" alt=""><address>R. Romeu do Nascimento, 247 - Jardim Portal da Colina, Sorocaba - SP 18047-410 - 2º andar</address>
-               </div>
-               <div id="content4">
-                  
-                  <div id="txt-white"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd</p>
-                  </div>
+         <div id="box-about">
+            <p>
+               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
+            </p>
             
-                  <div id="txt-yellow"><p>gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et a</p> 
-                  </div>
+            <!--Trecho de destaque sobre a empresa-->
+            <p>
+               <strong>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
+               </strong>
+            </p>
+
+            <p>
+               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
+            </p>
+         </div>
+      </div>
+   </section>
+
+         <!-- Sessão onde é apresentado o serviço da empresa, trazer 3 cards com titulo e descrção-->
+   <section class="service" id="servicos">
+         <div class="container-service">
+            <div class="title">
+               <h2>Serviços</h2>
+            </div>
             
-                  <div id="txt-blue"><p>ccusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+            <div class="cards-service">
+               <!--Primeiro Card-->
+               <section class="card-service" id="card1-service">
+                  <h3>Serviços</h3>
+                  <div class="cards-description-service">
+                     <p class="p1">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam</p>
+                     <p class="p2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam</p>
                   </div>
+               </section>
+
+               <!--Segundo Card-->
+               <section class="card-service" id="card2-service">
+                  <h3>Mídia Digital de Performance</h3>
+                  <div class="cards-description-service">
+                     <p class="p1">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam</p>
+                     <p class="p2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam</p>
+                  </div>
+               </section>
+
+               <!--Terceiro Card-->
+               <section class="card-service" id="card3-service">
+                  <h3>Implementações Tecnológicas</h3>
+                  <div class="cards-description-service">
+                     <p class="p1">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam</p>
+                     <p class="p2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam</p>
+                  </div>
+               </section>
+            </div>
+         </div>   
+   </section>
+
+   <!--Sessão apresentando os diferenciais da empresa, usando o mesmo métodos dos 3 cards-->
+   <section class="diff" id="diferenciais">
+      <div class="container-diff">
+         <div class="title">
+            <h2>Diferenciais</h2>
+         </div>
+         <div class="cards-diff">
+            <!--Primeiro Card-->
+            <section class="card-diff" id="card1-diff">
+               <h3>
+                  <img src="./assets/imagens/web/medal-icon.png" alt="icone de medalha com estrela">
+               </h3>
+               <div class="cards-description-diff">
+                  <p>
+                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo 
+                  </p>
                </div>
             </section>
-            <section class="email">
-               <form>
-                  <input type="text" name="nome" id="nome" placeholder="Nome">
-                  <input type="email" name="email" id="email" placeholder="E-mail">
-                  <input type="number" name="invest-mensal" id="invest" placeholder="Investimento mensal">
-                  <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Mensagem"></textarea>
-                  <button id="btn-mail" >
-                     Enviar Mensagem
-                  </button>
-               </form>
+
+            <!--Segundo Card-->
+            <section class="card-diff" id="card2-diff">
+               <h3>
+                  <img src="./assets/imagens/web/medal-icon.png" alt="icone de medalha com estrela">
+               </h3>
+               <div class="cards-description-diff">
+                  <p>
+                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                  </p>
+               </div>
+            </section>
+
+            <!--Terceiro Card-->
+            <section class="card-diff" id="card3-diff">
+               <h3>
+                  <img src="./assets/imagens/web/medal-icon.png" alt="icone de medalha com estrela">
+               </h3>
+               <div class="cards-description-diff">
+                  <p>
+                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                  </p>
+               </div>
             </section>
          </div>
-      </section>
+      </div>
+   </section>
+
+   <!--Sessão final apresentando os contatos da empresa e um formulário para enviar uma mensagem-->
+   <section class="contact" id="contato">
+      <div class="container-contact">
+         <section class="infos">
+            <!--Box contendo icone da empresa, facebook e linkedin -->
+            <div id="content1">
+               <!--novamente usando a tag picture para responsividade, quando o site atingir uma largura de 1200px o logo será trocado para um logo menor-->
+               <picture>
+                  <source media="(max-width: 1200px)" srcset="assets/imagens/mobile/logo.png">
+                  <img src="assets/imagens/web/logo.png" alt="Logo da Rocky" title="Rocky">
+               </picture>
+               <div class="redes">
+                  <a href="https://www.facebook.com/RockyDigitalPerformance/">
+                     <img src="./assets/imagens/web/icon-face.png" alt="Logo do facebook" id="logo-face">
+                  </a>
+                  <a href="https://www.linkedin.com/company/rocky-ag/?originalSubdomain=br">
+                     <img src="./assets/imagens/web/icon-linkedin.png" alt="Logo do linkedin">
+                  </a>
+               </div>
+            </div>
+
+            <!--Box contendo o email e telefone da empresa-->
+            <div id="content2">
+               <div class="msg">
+                  <img src="./assets/imagens/web/icon-msg.png" alt="icone de carta">
+                  <p>contato@rocky.ag</p>
+               </div>
+               <div class="tel">
+                  <img src="./assets/imagens/web/icon-tel.png" alt="icone de telefone">
+                  <p>(15) 3321-1105</p>
+               </div>
+            </div>
+
+            <!--Box contendo o endereço da empresa-->
+            <div id="content3">
+               <img src="./assets/imagens/web/icon-gps.png" alt="icone de localização">
+               <!--Usada a tag address para referenciar que se trata de um endereço-->
+               <address>R. Romeu do Nascimento, 247 - Jardim Portal da Colina, Sorocaba - SP 18047-410 - 2º andar</address>
+            </div>
+
+            <!--Box contendo mais informações, de contato e sobre a empresa-->
+            <div id="content4">
+               <div id="txt-white">
+                  <p>
+                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
+                  </p>
+               </div>
+         
+               <div id="txt-yellow">
+                  <p>
+                     gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et a
+                  </p> 
+               </div>
+         
+               <div id="txt-blue">
+                  <p>ccusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                  </p>
+               </div>
+            </div>            
+         </section>
+
+         <!--Section que contém um formulário para o cliente enviar a empresa, com seu nome, email, o quanto deseja investir e uma breve mensagem-->
+         <section class="email">
+            <form>
+               <input type="text" name="nome" id="nome" placeholder="Nome">
+               <input type="email" name="email" id="email" placeholder="E-mail">
+               <input type="number" name="invest-mensal" id="invest" placeholder="Investimento mensal">
+               <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Mensagem"></textarea>
+               <button id="btn-mail" >Enviar Mensagem</button>
+            </form>
+         </section>
+      </div>
+   </section>
+   <!--Script básico para fazer o menu mobile-->
    <script src="assets/script/mobile-menu.js"></script>
 </body>
 </html>
