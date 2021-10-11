@@ -7,7 +7,7 @@
 <a href="https://gustabriel.github.io/rocky/">https://gustabriel.github.io/rocky/</a> </h2>
 
 <details close>
-  <summary style="text-align: center; font-size:50px;"> 
+  <summary text-align: center; font-size:50px;> 
   Site no modo desktop 💻
   </summary>
    <h1 style="margin: auto">
