@@ -26,8 +26,8 @@
 
 
 ---
-## 📝 Sobre:
-#####O projeto do site **Rocky** é um processo seletivo da **empresa** Rocky, uma landing page do site da empresa, baseado nos mackoups disponibilizados.
+# 📝 Sobre:
+##O projeto do site **Rocky** é um processo seletivo da **empresa** Rocky, uma landing page do site da empresa, baseado nos mackoups disponibilizados.
 ---
 ## 💾 Tecnologias utilizadas:
 ####O Projeto foi desenvolvido utilizando as seguintes tecnologias:
@@ -36,7 +36,7 @@
 - HTML;
 - JavaScript;
 ---
-## 📥 Como baixar o projeto:
+# 📥 Como baixar o projeto:
 
 
 ``` bash
