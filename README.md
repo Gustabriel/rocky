@@ -1,4 +1,4 @@
-<h1 style="background-color: #000000; width: 290px; height: 87px; margin: auto">
+<h1 align="center>
 <img src="./assets/imagens/web/logo.png">
 </h1>
 
@@ -54,7 +54,7 @@ $ cd rocky
 
 # 🥇 Aprendizagem durante o projeto:
 ## - O que mais tive dificuldade durante o desenvolvimento desse projeto foi na parte de alinhamento e responsividade do site, foi dificil tentar deixar o site totalmente responsivo conforme sua largura fosse diminuindo.
-## - Porém, essas dificuldades contribuiu muito na minha evolução dentro do CSS e consegui aprender bastante sobre responsividadem.
+## - Porém, essas dificuldades contribuiram muito na minha evolução dentro do CSS e consegui aprender bastante sobre responsividade.
 ## - Ainda pretendo aprimorar o site e adicionar mais funcionalidades e deixar ele mais dinâmico.
 
 ---
