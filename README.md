@@ -6,16 +6,16 @@
 <h2 align="center"> 📎 Acesse o projeto online em: 
 <a href="https://gustabriel.github.io/rocky/">https://gustabriel.github.io/rocky/</a> </h2>
 
-<details close>
+<h2 align="center" ><details close>
   <summary> 
     Site no modo desktop 💻
-  </summary>
+  </summary></h2>
    <h1 style="margin: auto">
    <img src="./assets/imagens/rdme/captura-da-page-completa.png">
    </h1>
 </details>
 
-<h2><details close>
+<h2 align="center" ><details close>
   <summary> 
     Site no modo mobile _📱
   </summary></h2>
