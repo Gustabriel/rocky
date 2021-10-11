@@ -36,8 +36,8 @@
 - CSS;
 - HTML;
 - JavaScript;
-- <br />
-- 
+<br />
+
 # 📥 Como baixar o projeto:
 
 ``` bash
