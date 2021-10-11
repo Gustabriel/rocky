@@ -6,7 +6,7 @@
 <h2 align="center"> 📎 Acesse o projeto online em: 
 <a href="https://gustabriel.github.io/rocky/">https://gustabriel.github.io/rocky/</a> </h2>
 
-<h2 align="center" ><details close>
+<h2><details close>
   <summary> 
     Site no modo desktop 💻
   </summary></h2>
