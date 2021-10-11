@@ -3,11 +3,11 @@
 </h1>
 
 
-<h2 style="text-align: center;"> 📎 Acesse o projeto online em: 
+<h2 align="center"> 📎 Acesse o projeto online em: 
 <a href="https://gustabriel.github.io/rocky/">https://gustabriel.github.io/rocky/</a> </h2>
 
 <details close>
-  <summary text-align: center; font-size:50px;> 
+  <summary align="center"> 
   Site no modo desktop 💻
   </summary>
    <h1 style="margin: auto">
@@ -60,9 +60,9 @@ $ cd rocky
 ---
 
 
-<h2 style="text-align: center;"> 📌 Desenvolvido por: <a href="https://www.linkedin.com/in/gabriel-gustavo31/">Gabriel Gustavo</a>;
+<h2 align="center"> 📌 Desenvolvido por: <a href="https://www.linkedin.com/in/gabriel-gustavo31/">Gabriel Gustavo</a>;
 </h2>
-<h1 style="text-align: center;"><img  style="width: 120px; border-radius: 60px; margin: auto;"src="https://scontent.fcgh19-1.fna.fbcdn.net/v/t1.6435-9/242104970_4636518183049570_4631445140627545675_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeGdjIWl0FDbQ0Grx-3wQJS9gdlskFobCtKB2WyQWhsK0ptvpMDC7TASPC3D3SWHpl2svblOWoKq896Qbih9UqbS&_nc_ohc=P-zBD9SjFUcAX-pc55a&_nc_ht=scontent.fcgh19-1.fna&oh=54841083701870da4b478aa9e613e402&oe=618985EA"></h1>
+<h1 align="center"><img  style="width: 120px; border-radius: 60px; margin: auto;"src="https://scontent.fcgh19-1.fna.fbcdn.net/v/t1.6435-9/242104970_4636518183049570_4631445140627545675_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeGdjIWl0FDbQ0Grx-3wQJS9gdlskFobCtKB2WyQWhsK0ptvpMDC7TASPC3D3SWHpl2svblOWoKq896Qbih9UqbS&_nc_ohc=P-zBD9SjFUcAX-pc55a&_nc_ht=scontent.fcgh19-1.fna&oh=54841083701870da4b478aa9e613e402&oe=618985EA"></h1>
 
 ---
 
