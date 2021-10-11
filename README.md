@@ -58,8 +58,8 @@ $ cd rocky
 ### - Ainda pretendo aprimorar o site e adicionar mais funcionalidades e deixar ele mais dinâmico. <br />
 
 
-<h2 align="center"> 📌 Desenvolvido por: <a href="https://www.linkedin.com/in/gabriel-gustavo31/">Gabriel Gustavo</a>;
-</h2>
+<h3 align="center"> 📌 Desenvolvido por: <a href="https://www.linkedin.com/in/gabriel-gustavo31/">Gabriel Gustavo</a>;
+</h3>
 <h1 align="center"><img  style="width: 120px; border-radius: 60px; margin: auto;"src="https://scontent.fcgh19-1.fna.fbcdn.net/v/t1.6435-9/242104970_4636518183049570_4631445140627545675_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeGdjIWl0FDbQ0Grx-3wQJS9gdlskFobCtKB2WyQWhsK0ptvpMDC7TASPC3D3SWHpl2svblOWoKq896Qbih9UqbS&_nc_ohc=P-zBD9SjFUcAX-pc55a&_nc_ht=scontent.fcgh19-1.fna&oh=54841083701870da4b478aa9e613e402&oe=618985EA"></h1>
 
 <br />
