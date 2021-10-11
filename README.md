@@ -8,17 +8,17 @@
 
 <details close>
   <summary> 
-    <h2>Site no modo desktop</h2> 💻
+    Site no modo desktop 💻
   </summary>
    <h1 style="margin: auto">
    <img src="./assets/imagens/rdme/captura-da-page-completa.png">
    </h1>
 </details>
 
-<details close>
+<h2><details close>
   <summary> 
-    <h2>Site no modo mobile</h2>  📱
-  </summary>
+    Site no modo mobile _📱
+  </summary></h2>
    <h1 style="margin: auto">
    <img src="./assets/imagens/rdme/captura-site(iPhone 6_7_8).png">
    </h1>
