@@ -56,6 +56,8 @@ $ cd rocky
 ### - O que mais tive dificuldade durante o desenvolvimento desse projeto foi na parte de alinhamento e responsividade do site, foi dificil tentar deixar o site totalmente responsivo conforme sua largura fosse diminuindo. <br />
 ### - Porém, essas dificuldades contribuiram muito na minha evolução dentro do CSS e consegui aprender bastante sobre responsividade. <br />
 ### - Ainda pretendo aprimorar o site e adicionar mais funcionalidades e deixar ele mais dinâmico. <br />
+---
+<br />
 
 
 <h3 align="center"> 📌 Desenvolvido por: <a href="https://www.linkedin.com/in/gabriel-gustavo31/">Gabriel Gustavo</a>;
