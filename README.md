@@ -7,8 +7,8 @@
 <a href="https://gustabriel.github.io/rocky/">https://gustabriel.github.io/rocky/</a> </h2>
 
 <details close>
-  <summary align="center"> 
-    <h2>Site no modo <br /> desktop</h2> 💻
+  <summary> 
+    <h2>Site no modo desktop</h2> 💻
   </summary>
    <h1 style="margin: auto">
    <img src="./assets/imagens/rdme/captura-da-page-completa.png">
@@ -16,7 +16,7 @@
 </details>
 
 <details close>
-  <summary align="center"> 
+  <summary> 
     <h2>Site no modo mobile</h2>  📱
   </summary>
    <h1 style="margin: auto">
