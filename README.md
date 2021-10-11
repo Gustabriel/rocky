@@ -8,7 +8,7 @@
 
 <details close align="center">
   <summary> 
-    Site no modo desktop 💻
+    Ver site no modo desktop 💻
   </summary>
    <h1 style="margin: auto">
    <img src="./assets/imagens/rdme/captura-da-page-completa.png">
@@ -17,13 +17,14 @@
 
 <details close align="center">
   <summary> 
-    Site no modo mobile _📱
+    Ver site no modo mobile 📱
   </summary>
    <h1 style="margin: auto">
    <img src="./assets/imagens/rdme/captura-site(iPhone 6_7_8).png">
    </h1>
 </details>
-
+<br />
+<br />
 
 
 # 📝 Sobre:
